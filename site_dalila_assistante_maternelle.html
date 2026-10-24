@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dalila, assistante maternelle à Wattrelos. 12 ans d'expérience. Contactez-la pour discuter de vos besoins de garde et demander un tarif personnalisé.">
+  <meta name="theme-color" content="#fffaf2">
+  <title>Dalila — Assistante maternelle à Wattrelos</title>
+  <style>
+    :root{--ink:#29352f;--muted:#68766e;--cream:#fffaf2;--paper:#fff;--sage:#dce9dc;--green:#456b57;--green-dark:#31513f;--peach:#f6d9c8;--yellow:#f7e9ae;--line:#e8e8df;--shadow:0 18px 50px rgba(41,53,47,.09)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;color:var(--ink);background:var(--cream);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    header{position:sticky;top:0;z-index:10;background:rgba(255,250,242,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(232,232,223,.8)}.nav{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:-.04em;font-size:1.15rem}.brand-mark{width:42px;height:42px;display:grid;place-items:center;background:var(--sage);border-radius:15px;font-size:1.35rem}.navlinks{display:flex;align-items:center;gap:25px;color:var(--muted);font-size:.94rem;font-weight:650}.navlinks a:hover{color:var(--green-dark)}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 19px;border-radius:999px;background:var(--green);color:white;font-weight:750;border:0;cursor:pointer;transition:transform .2s,background .2s}.button:hover{background:var(--green-dark);transform:translateY(-2px)}.button.light{color:var(--green-dark);background:white;border:1px solid var(--line)}
+    .hero{padding:78px 0 68px;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:60px}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--green-dark);background:var(--sage);padding:7px 13px;border-radius:999px;font-size:.84rem;font-weight:800}h1{font-size:clamp(2.8rem,6vw,5.2rem);line-height:1.03;letter-spacing:-.065em;margin:20px 0;max-width:690px}h1 em{font-style:normal;color:var(--green)}.lead{color:var(--muted);font-size:1.12rem;max-width:570px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.trust{display:flex;align-items:center;gap:10px;margin-top:26px;color:var(--muted);font-size:.9rem}.trust-icon{background:var(--yellow);border-radius:50%;width:31px;height:31px;display:grid;place-items:center}
+    .visual{position:relative;min-height:420px;display:grid;place-items:center}.blob{width:min(100%,440px);aspect-ratio:1/1.03;background:var(--sage);border-radius:48% 52% 42% 58%/43% 43% 57% 57%;position:relative;display:grid;place-items:center;overflow:hidden}.sun{position:absolute;width:100px;height:100px;border-radius:50%;background:var(--yellow);top:35px;right:32px}.house{position:absolute;bottom:0;width:74%;height:58%;background:#fff8ec;border-radius:48% 48% 0 0}.roof{position:absolute;width:76%;height:37%;top:17%;background:#d99e7e;clip-path:polygon(50% 0,100% 100%,0 100%)}.window{position:absolute;top:49%;left:24%;width:22%;aspect-ratio:1;border:7px solid #f0c7ac;border-radius:16px;background:#b9d7d4}.door{position:absolute;top:48%;right:23%;width:22%;height:39%;background:#71947d;border-radius:40px 40px 0 0}.flower{position:absolute;font-size:3rem}.flower.one{bottom:30px;left:15px;transform:rotate(-18deg)}.flower.two{top:80px;left:22px;font-size:2.2rem}.float-card{position:absolute;padding:14px 17px;background:white;border-radius:18px;box-shadow:var(--shadow);font-weight:750;font-size:.93rem}.float-card span{display:block;color:var(--muted);font-size:.78rem;font-weight:500}.card-top{top:42px;left:-8px}.card-bottom{bottom:38px;right:-8px}
+    section{padding:78px 0}.section-head{max-width:650px;margin:0 auto 36px;text-align:center}.section-head h2{font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.05em;line-height:1.1;margin:13px 0}.section-head p{color:var(--muted);margin:0}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{background:var(--paper);border:1px solid var(--line);padding:27px;border-radius:24px}.feature-icon{width:52px;height:52px;display:grid;place-items:center;border-radius:17px;font-size:1.5rem;background:var(--sage)}.feature:nth-child(2) .feature-icon{background:var(--peach)}.feature:nth-child(3) .feature-icon{background:var(--yellow)}.feature h3{margin:17px 0 8px;font-size:1.15rem}.feature p{margin:0;color:var(--muted);font-size:.96rem}
+    .about{background:#f2f3e9}.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:65px;align-items:center}.about-art{min-height:330px;border-radius:32px;background:var(--peach);display:grid;place-items:center;font-size:8rem;position:relative;overflow:hidden}.about-art:before,.about-art:after{content:"";position:absolute;border:2px solid rgba(255,255,255,.65);border-radius:50%;width:250px;height:250px}.about-art:after{width:330px;height:330px}.about-art span{z-index:1}.about-copy h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.1;letter-spacing:-.05em;margin:14px 0 18px}.about-copy p{color:var(--muted)}.checks{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}.checks li{display:flex;align-items:flex-start;gap:10px}.check{color:var(--green);font-weight:900}
+    .pricing-box{max-width:760px;margin:auto;text-align:center;padding:44px;background:white;border:1px solid var(--line);border-radius:30px;box-shadow:var(--shadow)}.price-icon{font-size:2.6rem}.pricing-box h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;letter-spacing:-.05em;margin:12px 0}.pricing-box p{color:var(--muted);max-width:550px;margin:0 auto 24px}.price-note{display:inline-block;background:var(--sage);padding:9px 14px;border-radius:999px;color:var(--green-dark);font-size:.88rem;font-weight:800;margin-bottom:24px}
+    .contact{background:var(--green-dark);color:white}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:start}.contact h2{font-size:clamp(2.2rem,4vw,3.4rem);line-height:1.08;letter-spacing:-.05em;margin:14px 0}.contact .muted{color:#d3dfd5}.contact-details{display:grid;gap:15px;margin-top:28px}.contact-detail{display:flex;align-items:flex-start;gap:12px}.contact-detail b{display:block}.contact-detail small{color:#d3dfd5;overflow-wrap:anywhere}.contact .eyebrow{background:#dce9dc;color:var(--green-dark)}
+    form{background:white;color:var(--ink);border-radius:25px;padding:28px;display:grid;gap:15px}.field{display:grid;gap:6px}label{font-size:.88rem;font-weight:750}input,textarea,select{width:100%;border:1px solid #dfe3dc;border-radius:12px;padding:12px 13px;font:inherit;color:var(--ink);background:#fff}input:focus,textarea:focus,select:focus{outline:2px solid #a9c8b0;border-color:var(--green)}textarea{min-height:105px;resize:vertical}form .button{width:100%;font:inherit}.form-note{font-size:.78rem;color:var(--muted);margin:0}.status{font-size:.9rem;color:var(--green-dark);font-weight:650;margin:0}footer{padding:24px 0;color:var(--muted);font-size:.85rem}.footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:800px){.navlinks{gap:14px;font-size:.86rem}.navlinks .button{padding:10px 13px}.hero{padding-top:48px}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:35px}.visual{min-height:350px;max-width:500px;width:100%;margin:auto}.features{grid-template-columns:1fr}.about-art{min-height:250px}.contact-grid{gap:25px}}
+    @media(max-width:520px){.wrap{width:min(100% - 28px,1120px)}.nav{min-height:66px}.navlinks a:not(.button){display:none}.brand{font-size:1rem}.brand-mark{width:37px;height:37px}h1{font-size:3.1rem}.visual{min-height:310px}.float-card{padding:10px 12px;font-size:.82rem}section{padding:58px 0}.pricing-box{padding:28px 20px}form{padding:21px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#accueil" aria-label="Dalila, accueil"><span class="brand-mark">🌱</span><span>Dalila · Assistante maternelle</span></a>
+  <nav class="navlinks" aria-label="Navigation principale"><a href="#services">Services</a><a href="#apropos">À propos</a><a href="#tarifs">Tarifs</a><a class="button" href="#contact">Me contacter ↗</a></nav>
+</div></header>
+<main>
+  <section class="hero" id="accueil"><div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">♡ Une garde tout en douceur</span>
+      <h1>Grandir, jouer et s’épanouir <em>en confiance.</em></h1>
+      <p class="lead">Bonjour, je suis Dalila, assistante maternelle à Wattrelos. Avec 12 ans d’expérience, je vous propose d’échanger autour des besoins de votre enfant et de votre organisation familiale.</p>
+      <div class="hero-actions"><a class="button" href="#contact">Parlons de vos besoins <span>→</span></a><a class="button light" href="#services">Découvrir les services</a></div>
+      <div class="trust"><span class="trust-icon">♡</span> Écoute, douceur et échanges avec les familles</div>
+    </div>
+    <div class="visual" aria-label="Illustration décorative d'une petite maison"><div class="blob"><div class="sun"></div><div class="house"></div><div class="roof"></div><div class="window"></div><div class="door"></div><span class="flower one">🌼</span><span class="flower two">✿</span></div><div class="float-card card-top">🌿 12 ans d’expérience<span>Une approche attentionnée</span></div><div class="float-card card-bottom">🧸 Place aux découvertes<span>Au rythme de chaque enfant</span></div></div>
+  </div></section>
+  <section id="services"><div class="wrap">
+    <div class="section-head"><span class="eyebrow">Les services</span><h2>Une garde adaptée à votre quotidien</h2><p>Chaque famille a ses habitudes. Échangeons pour voir si l’accueil correspond à vos besoins.</p></div>
+    <div class="features">
+      <article class="feature"><div class="feature-icon">🧸</div><h3>Accueil des enfants</h3><p>Une attention portée au bien-être de l’enfant, à son rythme et à ses besoins du quotidien.</p></article>
+      <article class="feature"><div class="feature-icon">🕰️</div><h3>Votre organisation</h3><p>Présentez-moi les jours et horaires souhaités afin que nous puissions discuter ensemble des possibilités.</p></article>
+      <article class="feature"><div class="feature-icon">💛</div><h3>Dialogue avec les parents</h3><p>Un échange simple pour faire connaissance, parler des habitudes de votre enfant et répondre à vos questions.</p></article>
+    </div>
+  </div></section>
+  <section class="about" id="apropos"><div class="wrap about-grid">
+    <div class="about-art" aria-hidden="true"><span>🌷</span></div>
+    <div class="about-copy"><span class="eyebrow">À propos de moi</span><h2>Dalila, assistante maternelle à Wattrelos.</h2>
+      <p>Bonjour et bienvenue sur mon site ! Je m’appelle Dalila et j’exerce comme assistante maternelle depuis 12 ans. Je souhaite offrir aux familles un contact chaleureux et un cadre d’échange rassurant autour de la garde de leur enfant.</p>
+      <p>Chaque demande est différente : contactez-moi pour me présenter votre famille, me préciser vos besoins et poser vos questions.</p>
+      <ul class="checks"><li><span class="check">✓</span><span>12 ans d’expérience en tant qu’assistante maternelle</span></li><li><span class="check">✓</span><span>Échanges personnalisés avec les familles</span></li><li><span class="check">✓</span><span>Tarif communiqué sur demande</span></li></ul>
+    </div>
+  </div></section>
+  <section id="tarifs"><div class="wrap"><div class="pricing-box"><div class="price-icon">💌</div><span class="price-note">Tarifs personnalisés</span><h2>Un tarif sur demande</h2><p>Les tarifs sont communiqués après échange sur votre besoin de garde. Indiquez l’âge de votre enfant, les jours et les horaires souhaités pour que Dalila puisse étudier votre demande.</p><a class="button" href="#contact">Demander un tarif →</a></div></div></section>
+  <section class="contact" id="contact"><div class="wrap contact-grid">
+    <div><span class="eyebrow">Prenons contact</span><h2>Parlons de votre besoin de garde.</h2><p class="muted">Une question ou une demande de tarif ? Contactez-moi directement ou préparez votre message grâce au formulaire.</p>
+      <div class="contact-details">
+        <div class="contact-detail"><span>📍</span><div><b>Adresse</b><small>42 rue Ma Campagne, Wattrelos</small></div></div>
+        <div class="contact-detail"><span>📞</span><div><b>Téléphone</b><small><a href="tel:+33787320137">07 87 32 01 37</a></small></div></div>
+        <div class="contact-detail"><span>✉️</span><div><b>E-mail</b><small><a href="mailto:arezki.ferrahi@outlook.fr">arezki.ferrahi@outlook.fr</a></small></div></div>
+      </div>
+    </div>
+    <form id="contact-form">
+      <div class="field"><label for="parent">Votre nom</label><input id="parent" name="parent" autocomplete="name" placeholder="Nom et prénom" required></div>
+      <div class="field"><label for="email">Votre e-mail</label><input id="email" name="email" type="email" autocomplete="email" placeholder="vous@exemple.fr" required></div>
+      <div class="field"><label for="age">Âge de l’enfant</label><select id="age" name="age" required><option value="">Choisir une tranche d’âge</option><option>Bébé</option><option>1 à 3 ans</option><option>3 à 6 ans</option><option>Plus de 6 ans</option><option>Plusieurs enfants</option></select></div>
+      <div class="field"><label for="schedule">Jours et horaires souhaités</label><input id="schedule" name="schedule" placeholder="Ex. lundi et jeudi, 8 h–17 h"></div>
+      <div class="field"><label for="message">Votre message</label><textarea id="message" name="message" placeholder="Décrivez votre besoin ou posez votre question…" required></textarea></div>
+      <button class="button" type="submit">Préparer ma demande ✉️</button>
+      <p class="form-note">Le formulaire ouvre votre application de messagerie avec un e-mail prérempli. Rien n’est envoyé automatiquement.</p>
+      <p id="form-status" class="status" role="status" hidden></p>
+    </form>
+  </div></section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> Dalila · Assistante maternelle</span><span>Wattrelos · Un accueil avec douceur 🌱</span></div></footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const data = new FormData(this);
+    const subject = encodeURIComponent('Demande de garde d’enfants — ' + data.get('parent'));
+    const body = encodeURIComponent(
+      'Nom : ' + data.get('parent') + '\\nE-mail : ' + data.get('email') +
+      '\\nÂge de l’enfant : ' + data.get('age') + '\\nJours et horaires : ' + (data.get('schedule') || 'Non précisés') +
+      '\\n\\nMessage :\\n' + data.get('message')
+    );
+    document.getElementById('form-status').hidden = false;
+    document.getElementById('form-status').textContent = 'Votre application de messagerie va s’ouvrir pour que vous puissiez vérifier et envoyer votre demande.';
+    window.location.href = 'mailto:arezki.ferrahi@outlook.fr?subject=' + subject + '&body=' + body;
+  });
+</script>
+</body>
+</html>
